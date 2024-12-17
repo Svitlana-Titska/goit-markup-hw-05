@@ -188,6 +188,24 @@ height: 4px;
   background: #404bbf;
 }
 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+width: 100%;
+height: 100%;
+z-index: 999;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.modal {
+background-color: #FFFFFF;
+border-radius: 4px;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
 /*   main approach   */
 
 .visually-hidden {
