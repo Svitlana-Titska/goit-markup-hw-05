@@ -542,6 +542,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-social-icons {
   display: flex;
  gap: 16px; 
+ padding-right: 80px;
 }
 
 .footer-icons {
@@ -617,4 +618,9 @@ font-size: 16px;
    background-color: #4D5AE5;
 border: none;
 border-radius: 4px;
+}
+
+.footer-form-icons {
+  margin-left: 16px;
+  fill: #f4f4fd;
 }
