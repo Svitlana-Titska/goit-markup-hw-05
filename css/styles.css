@@ -745,10 +745,6 @@ padding: 72px 24px 24px 24px;
       border-color: #4D5AE5;
     }
 
-    .checkbox {
-      margin-bottom: 24px;
-    }
-
     .checkbox-label {
       text-decoration: underline;
       font-size: 12px;
@@ -757,6 +753,10 @@ padding: 72px 24px 24px 24px;
         color: #8e8f99;
       }
 
+      .checkbox {
+      margin-bottom: 24px;
+    }
+    
       .castom-checkbox {
         display: inline-flex;
        align-items: center;
