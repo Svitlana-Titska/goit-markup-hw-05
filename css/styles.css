@@ -778,9 +778,9 @@ padding: 72px 24px 24px 24px;
 
       }
 
-      .checkbox-input:checked+.checkbox-label .castom-checkbox {
-border: none;
-fill: #F4F4FD;
+      .visually-hidden.checkbox:checked+.checkbox-label .castom-checkbox {
+      border: none;
+      fill: #F4F4FD;
       }
       .checkbox-link {
         color: #4d5ae5;
