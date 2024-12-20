@@ -677,6 +677,11 @@ padding: 72px 24px 24px 24px;
       margin-bottom: 16px;
 }
 
+.modal-form {
+  display: flex;
+  gap 24px;
+}
+
 .form-wrapper-cont {
   margin-bottom: 8px;
 }
